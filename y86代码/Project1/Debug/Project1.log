@@ -1,0 +1,16 @@
+﻿  mm.cpp
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\mm.cpp(149): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\mm.cpp(161): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.17763.0\ucrt\stdio.h(208): note: 参见“fopen”的声明
+  vcache.cpp
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\vcache.cpp(143): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\vcache.cpp(147): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\vcache.cpp(152): warning C4293: “<<”: Shift 计数为负或过大，其行为未定义
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\vcache.cpp(154): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\vcache.cpp(159): warning C4244: “return”: 从“unsigned __int64”转换到“int”，可能丢失数据
+  正在生成代码...
+c:\users\95102\documents\计算机系统基础\pj\正房y86\project1\vcache.cpp(140): warning C4715: “judge”: 不是所有的控件路径都返回值
+  .NETFramework,Version=v4.6.1.AssemblyAttributes.cpp
+  mm.obj : 遇到了 MSIL 模块；对 MSIL 禁用了增量链接；正在执行完全链接
+  Project1.vcxproj -> C:\Users\95102\Documents\计算机系统基础\pj\正房y86\Debug\Project1.exe

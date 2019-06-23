@@ -1,0 +1,72 @@
+  Project1.pipe.resources - Embedded, ContainedInManifestFile, 
+  Project1.Entrance.resources - Embedded, ContainedInManifestFile, 
+  Project1.show_mem.resources - Embedded, ContainedInManifestFile, 
+ImageRuntimeVersion: v4.0.30319
+Assembly Project1, Version=0.0.*, Culture=固定语言(固定国家/地区): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Data, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a: 
+	hash=None, flags=None
+Assembly System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Assembly System.Xml, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=None, flags=None
+Struct Project1.Memory: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Struct Project1.INFO: AutoLayout, AnsiClass, Class, Public, SequentialLayout, Sealed, BeforeFieldInit
+  :System.ValueType
+Class Project1.MyForm2: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+Class Project1.MyForm: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Fields:
+    System.Windows.Forms.Timer tm : Public
+    Int32 s : Public
+    Int32 o : Public
+    Int32 z : Public
+    Int64 m_addr : Public
+    Int64 pc : Public
+    Int64 aluA : Public
+    Int64 aluB : Public
+    Int64 aluE : Public
+    Project1.Fetch* fe : Public
+    Project1.Decode* de : Public
+    Project1.Execute* exe : Public
+    Project1.Memory* mem : Public
+    Project1.Write* wri : Public
+    Project1.INFO* info : Public
+    System.String str : Public
+    System.Threading.Thread f : Public
+    System.Threading.Thread d : Public
+    System.Threading.Thread e : Public
+    System.Threading.Thread m : Public
+    System.Threading.Thread w : Public
+    Int32 cyclenum : Public, Static
+  Methods:
+    str_to_ch(String): PrivateScope, Public, HideBySig
+    ch_to_str(Byte*): PrivateScope, Public, HideBySig
+    ll_to_str1(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Int64): PrivateScope, Public, HideBySig
+    in_to_hex_str(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*, Int32): PrivateScope, Public, HideBySig
+    str1_to_str2(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    ll_to_str(Int64): PrivateScope, Public, HideBySig
+    in_to_str(Int32): PrivateScope, Public, HideBySig
+    str_to_int(String): PrivateScope, Public, HideBySig
+    str_to_ll(String): PrivateScope, Public, HideBySig
+    hex_str_to_ll(basic_string<char\,std::char_traits<char>\,std::allocator<char> >*): PrivateScope, Public, HideBySig
+    Fe(): PrivateScope, Public, HideBySig
+    De(): PrivateScope, Public, HideBySig
+    Ex(): PrivateScope, Public, HideBySig
+    Me(): PrivateScope, Public, HideBySig
+    Wr(): PrivateScope, Public, HideBySig
+    DoWork(): PrivateScope, Public, HideBySig
+    Once(): PrivateScope, Public, HideBySig
+Class Project1.MyForm1: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+  :System.Windows.Forms.Form
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
